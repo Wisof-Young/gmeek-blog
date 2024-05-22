@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>海边的木子</title><link>https://blog.oceanum.top</link><description>连接真实，连接过去</description><copyright>海边的木子</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://tg.oceanum.top/file/f899d4053446182fa63f2.png</url><title>avatar</title><link>https://blog.oceanum.top</link></image><lastBuildDate>Wed, 22 May 2024 02:27:40 +0000</lastBuildDate><managingEditor>海边的木子</managingEditor><ttl>60</ttl><webMaster>海边的木子</webMaster><item><title>旁路由——R2S</title><link>https://blog.oceanum.top/post/pang-lu-you-%E2%80%94%E2%80%94R2S.html</link><description>![](https://oceanum.oss-cn-chengdu.aliyuncs.com/image/6c6e614eb8c110eb59c87ddce63bc726.jpeg)&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>海边的木子</title><link>https://blog.oceanum.top</link><description>连接真实，连接过去</description><copyright>海边的木子</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://tg.oceanum.top/file/f899d4053446182fa63f2.png</url><title>avatar</title><link>https://blog.oceanum.top</link></image><lastBuildDate>Wed, 22 May 2024 02:28:24 +0000</lastBuildDate><managingEditor>海边的木子</managingEditor><ttl>60</ttl><webMaster>海边的木子</webMaster><item><title>旁路由——R2S</title><link>https://blog.oceanum.top/post/pang-lu-you-%E2%80%94%E2%80%94R2S.html</link><description>![](https://oceanum.oss-cn-chengdu.aliyuncs.com/image/6c6e614eb8c110eb59c87ddce63bc726.jpeg)&#13;
 &#13;
 ## 安装系统&#13;
 &#13;
@@ -136,7 +136,19 @@
 &#13;
 **第 1 条：一**&#13;
 &#13;
-&gt; 狭长的巷子通道上行人稀疏，几个熟悉而陌生的手艺小摊贴着墙根次第排开。</description><guid isPermaLink="true">https://blog.oceanum.top/post/%E3%80%8A-zui-hou-de-bang-bang-%E3%80%8B.html</guid><pubDate>Mon, 02 Aug 2021 01:12:41 +0000</pubDate></item><item><title>阅读</title><link>https://blog.oceanum.top/books.html</link><description>!!!&#13;
+&gt; 狭长的巷子通道上行人稀疏，几个熟悉而陌生的手艺小摊贴着墙根次第排开。</description><guid isPermaLink="true">https://blog.oceanum.top/post/%E3%80%8A-zui-hou-de-bang-bang-%E3%80%8B.html</guid><pubDate>Mon, 02 Aug 2021 01:12:41 +0000</pubDate></item><item><title>观影</title><link>https://blog.oceanum.top/movies.html</link><description>!!!&#13;
+&lt;body&gt;&#13;
+&lt;div id="douban"&gt;&lt;/div&gt;&#13;
+&lt;/body&gt;&#13;
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/idouban/dist/main.css"/&gt;&#13;
+&lt;script src="https://cdn.jsdelivr.net/npm/idouban/dist/main.js" onload="window.idouban.init({&#13;
+           selector: '#douban',&#13;
+           type: 'movie',&#13;
+           douban_id: 189561860,&#13;
+           page_size: 5,&#13;
+        })"&gt;&#13;
+&lt;/script&gt;&#13;
+!!!。</description><guid isPermaLink="true">https://blog.oceanum.top/movies.html</guid><pubDate>Wed, 22 May 2024 02:27:57 +0000</pubDate></item><item><title>阅读</title><link>https://blog.oceanum.top/books.html</link><description>!!!&#13;
 &lt;body&gt;&#13;
 &lt;div id="douban"&gt;&lt;/div&gt;&#13;
 &lt;/body&gt;&#13;
