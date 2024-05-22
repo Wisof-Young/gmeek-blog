@@ -16,7 +16,7 @@
     "nightTheme":"dark_colorblind",
     "urlMode":"issue",
     "style":"",
-    "script":"<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bc7384e75cb84bb8b6c5913738530c38"}'></script>",
+    "script":"<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{'token': 'bc7384e75cb84bb8b6c5913738530c38'}'></script>",
     "showPostSource":1,
     "rssSplit":"sentence",
     "bottomText":"🐶转载请注明出处🐶",
