@@ -9,13 +9,37 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="我是一个很年轻的人，目前正处于奔三的早期阶段。">
-<meta property="og:title" content="关于">
-<meta property="og:description" content="我是一个很年轻的人，目前正处于奔三的早期阶段。">
+<meta name="description" content="!!!
+<body>
+<div id="douban"></div>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/idouban/dist/main.css"/>
+<script src="https://cdn.jsdelivr.net/npm/idouban/dist/main.js" onload="window.idouban.init({
+           selector: '#douban',
+           type: 'book',
+           douban_id: 189561860,
+           page_size: 5,
+        })">
+</script>
+!!!。">
+<meta property="og:title" content="阅读">
+<meta property="og:description" content="!!!
+<body>
+<div id="douban"></div>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/idouban/dist/main.css"/>
+<script src="https://cdn.jsdelivr.net/npm/idouban/dist/main.js" onload="window.idouban.init({
+           selector: '#douban',
+           type: 'book',
+           douban_id: 189561860,
+           page_size: 5,
+        })">
+</script>
+!!!。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://blog.oceanum.top/about.html">
+<meta property="og:url" content="https://blog.oceanum.top/post/39.html">
 <meta property="og:image" content="https://tg.oceanum.top/file/f899d4053446182fa63f2.png">
-<title>关于</title>
+<title>阅读</title>
 
 
 </head>
@@ -46,7 +70,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">关于</h1>
+<h1 class="postTitle">阅读</h1>
 <div class="title-right">
     <a href="https://blog.oceanum.top" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -54,7 +78,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/Wisof-Young/gmeek-blog/issues/38" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/Wisof-Young/gmeek-blog/issues/39" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -70,8 +94,20 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>我是一个很年轻的人，目前正处于奔三的早期阶段。作为无数这个年龄段的人中的一份子，我时常迷茫、焦虑，不知道路在何方但又往往醉生梦死。博客的名字「海边的木子」和我的昵称来自我最爱的人，这是我在纷攘世界的一丝慰藉。</p></div>
-<div style="font-size:small;margin-top:8px;float:right;"></div>
+<div class="markdown-body" id="postBody"><p>!!!</p>
+
+<div id="user-content-douban"></div>
+
+
+&lt;script src="https://cdn.jsdelivr.net/npm/idouban/dist/main.js" onload="window.idouban.init({
+           selector: '#douban',
+           type: 'book',
+           douban_id: 189561860,
+           page_size: 5,
+        })"&gt;
+&lt;/script&gt;
+!!!</div>
+<div style="font-size:small;margin-top:8px;float:right;">🐶转载请注明出处🐶</div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 </div>

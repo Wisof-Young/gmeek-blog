@@ -9,14 +9,14 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="我是一个很年轻的人，目前正处于奔三的早期阶段。">
-<meta property="og:title" content="关于">
-<meta property="og:description" content="我是一个很年轻的人，目前正处于奔三的早期阶段。">
+<meta name="description" content="将博客转移到了Hugo框架上面，比hexo更轻更快，自己需要的功能也都有，同时托管在cloudflare page上面，省去了每年的服务器花销。">
+<meta property="og:title" content="git删除子模块">
+<meta property="og:description" content="将博客转移到了Hugo框架上面，比hexo更轻更快，自己需要的功能也都有，同时托管在cloudflare page上面，省去了每年的服务器花销。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://blog.oceanum.top/about.html">
+<meta property="og:url" content="https://blog.oceanum.top/post/37.html">
 <meta property="og:image" content="https://tg.oceanum.top/file/f899d4053446182fa63f2.png">
-<title>关于</title>
-
+<title>git删除子模块</title>
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
 
 </head>
 <style>
@@ -46,7 +46,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">关于</h1>
+<h1 class="postTitle">git删除子模块</h1>
 <div class="title-right">
     <a href="https://blog.oceanum.top" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -54,7 +54,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/Wisof-Young/gmeek-blog/issues/38" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/Wisof-Young/gmeek-blog/issues/37" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -70,8 +70,15 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>我是一个很年轻的人，目前正处于奔三的早期阶段。作为无数这个年龄段的人中的一份子，我时常迷茫、焦虑，不知道路在何方但又往往醉生梦死。博客的名字「海边的木子」和我的昵称来自我最爱的人，这是我在纷攘世界的一丝慰藉。</p></div>
-<div style="font-size:small;margin-top:8px;float:right;"></div>
+<div class="markdown-body" id="postBody"><p>将博客转移到了Hugo框架上面，比hexo更轻更快，自己需要的功能也都有，同时托管在cloudflare page上面，省去了每年的服务器花销。我借鉴了<a href="https://elizen.me/" rel="nofollow">@Elizen</a>的博客，界面很美观。其实Hugo设置主题很简单，只需要花一点时间，把各位大佬的源码仓库下载下来，仔细看看，实在看不懂，直接copy代码😂。</p>
+<p>Hugo在安装主题的时候，官方建议使用子模块的形式进行安装，也就是<code class="notranslate">git submodule add ...</code>的方式。但是在卸载主题模块的时候，官方文档就没有给出教程了。所以把卸载submodule的方法记录下来，希望对计算机小白有所帮助。</p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">$ git submodule deinit -f {path}
+$ rm -rf .git/modules {path}
+$ git rm -f {path}</pre></div>
+<p>命令 <code class="notranslate">git submodule deninit</code> 取消注册子模块 。它从 <code class="notranslate">git/config</code> 文件中删除整个 <code class="notranslate">submodule.$name</code> 部分。此外，它还删除了子模块的工作树。</p>
+<p>项目目录中带有 子模块路径的命令 <code class="notranslate">git rm</code> 删除了超级项目（我们的项目）的跟踪数据。它删除了 <code class="notranslate">gitlink</code> 条目。此外，它消除了 <code class="notranslate">.gitmodules</code> 文件中存在的子模块部分并暂存该文件。</p>
+</div>
+<div style="font-size:small;margin-top:8px;float:right;">🐶转载请注明出处🐶</div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 </div>
