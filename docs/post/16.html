@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://tg.oceanum.top/file/f899d4053446182fa63f2.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -75,8 +75,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>再说回这些信息的内容，第一份文件是一群人「合作」将这个领域的各个方面阐述的一些要点拼凑起来，后两个新闻则是普遍的具有煽动性和非理性的「暴论」。前者无非是拾人牙慧，后者就是那种试图把社会的激情（包括愤懑，同情等情绪）当做燃料烧一把火然后看热闹的闹剧。这些信息毫无逻辑，对自己的生活和个人的成长大部分是负面作用，但正如前面所说，悲哀的是，这些信息，我们完全无法避开……</p>
 </div>
 <div style="font-size:small;margin-top:8px;float:right;">🐶转载请注明出处🐶</div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://blog.oceanum.top"> 海边的木子 </a>
 <p>
@@ -131,6 +133,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

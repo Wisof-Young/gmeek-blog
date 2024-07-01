@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://tg.oceanum.top/file/f899d4053446182fa63f2.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -86,8 +86,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>我的 kindle 购买于 5 年前，以现在的眼光来看，它没有 TypeC 口，刷新速度慢，但 300ppi 搭配亚马逊优秀的调教显示效果依然优秀。去年，亚马逊退出中国，我本来打算将我的 kindle 卖掉，但是咸鱼上一百出头的平均售价离我当时购买的价格相去甚远，思来想去也不差那钱，索性留作纪念。昨晚突发奇想，国行 kindle 能不能登录美亚账号呢？一试居然真的可以，无需特殊网络，所有功能包括之前中亚没有的功能，全部都支持。所以，现在 kindle 又重新得到了我的宠幸，毕竟，墨水瓶的阅读体验是其他屏幕无法比拟的。</p>
 </div>
 <div style="font-size:small;margin-top:8px;float:right;">🐶转载请注明出处🐶</div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://blog.oceanum.top"> 海边的木子 </a>
 <p>
@@ -142,6 +144,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

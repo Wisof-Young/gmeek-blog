@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://tg.oceanum.top/file/f899d4053446182fa63f2.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -82,8 +82,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>这一次旅行为了减重没有带相机，所以全程使用 iPhone13 拍摄。iPhone 的原相机存在过度锐化的问题，而且非 pro 版不能输出 raw 格式，这样就给后期造成了很大的掣肘。所幸，手机版的 lightroom 可以直接拍摄 raw 格式，所以上面所有的照片都是我用 lightroom 拍摄并后期得到。这是我第一次尝试电影画幅的照片，因为前段时间很喜欢<a href="https://www.behance.net/gpx2000" rel="nofollow">Bo Wen HUANG</a>的摄影作品，所以在有意模仿。但是手机版 lightroom 很蛋疼的一点是，他不能自定义裁剪的长宽比，而它预设的比例中又没有 2.35:1，所以每次我只能凭感觉调整画面比例，导致几张照片大小不一。</p>
 </div>
 <div style="font-size:small;margin-top:8px;float:right;">🐶转载请注明出处🐶</div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://blog.oceanum.top"> 海边的木子 </a>
 <p>
@@ -138,6 +140,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

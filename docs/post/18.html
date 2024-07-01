@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://tg.oceanum.top/file/f899d4053446182fa63f2.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -80,8 +80,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>正如刘瑜所说，政治没有常识，我们所认为的所有”常识“，都只是建立在我们的社会、文化和历史之上。我们经常诧异于其他国家的”奇葩事情“，却总是忽视我们和他们之间的巨大差异。一个人的政治观念是基于其成长经历，智识水平，家庭结构等很多东西的，可以说，政治观念就代表着一个人的三观。正如俾斯麦所言：政治是可能性的艺术，YPM里面说：最好的政策就是没有政策。政治本来就是模棱两可，飘忽不定，充满各种妥协的。这也就意味着，政治没有对错，所以每个人的政治观念也就没有对错之分。当我们抱着自己的想法，试图去说服其他人的时候，就相当于用自己的三观去改变他人的三观，而这种说服本身就没有对错可言，可想而知，最后的结果必然是谁都说服不了谁，甚至关系的决裂。况且，随着我们的不断成长，不断吸收新的知识，我们也经常会发现我们之前的想法多么幼稚，那么以前强迫别人接受自己的想法不更是一件不可取的事情吗？</p>
 </div>
 <div style="font-size:small;margin-top:8px;float:right;">🐶转载请注明出处🐶</div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://blog.oceanum.top"> 海边的木子 </a>
 <p>
@@ -136,6 +138,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
